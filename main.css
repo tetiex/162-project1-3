@@ -1,0 +1,57 @@
+html {
+    background: hsl(72, 80%, 90%);
+}
+
+body {
+    color: black;
+    background: cornsilk;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+header {
+        background-color: rgb(130, 110, 180);
+}
+
+h1 {
+    color: black;
+    font-size: 2.3em;
+    padding-left: 10px;
+}
+
+nav > ul {
+    line-height: 1.8em;
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+nav > ul >li.newgroup {
+    margin-top: 15px;
+}
+
+nav > ul > li > a:link, nav > ul > li > a:visited {
+    color: papayawhip;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover, nav > ul > li >a:active {
+    color: darkslateblue;
+    text-decoration: none;
+}
+
+h2 {
+    line-height: 1.0em;
+}
+
+section {
+    border-width: medium;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: .9em;
+    letter-spacing: .5px;
+    
+}
+
+footer {
+        background-color: rgb(130, 110, 180);
+        padding-left: 10px;
+}
